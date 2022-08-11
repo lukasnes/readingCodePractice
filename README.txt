@@ -28,7 +28,7 @@ If the question asks for information on a console log, answer with the log, wher
 
 5. What line of code is listening for the delete event of our page?
 
-Line 24 is listening to the delete button as it gets created
+
 
 6. There are several places in main.js that call the "createInfoList" function. What lines does the function get called on? What information does the function take as an argument?
 
