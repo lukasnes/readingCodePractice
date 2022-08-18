@@ -1,4 +1,5 @@
 let infoArray = ['This is top secret info', 'I know things you never will', 'I know the taste of the number purple']
+const path = require('path')
 
 module.exports = {
     getInfo: (req,res) => {
@@ -34,5 +35,8 @@ module.exports = {
         // -------------------Changing the information in the array------------
         infoArray = infoArray.map(information => information.replaceAll(from, to))
         res.status(200).send(infoArray)
+    },
+    getHTML: (req,res) => {
+        res.sendFile(path.join(__dirname, '../../client/index.html'))
     }
 }
