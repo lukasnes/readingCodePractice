@@ -5,7 +5,7 @@ const addInfoForm = document.querySelector('#add-info')
 const changeInfoForm = document.querySelector('#change-info')
 const list = document.querySelector('#list')
 // --------------------------Functions that do things-------------------------
-const baseURL = 'http://localhost:4000/api'
+const baseURL = '/api'
 
 const createInfoList = infoArray => {
     // ----------------------Emptying out the list----------------------------
